@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'presentation/animated_screen/screen/animated_screen.dart';
+import 'package:razorpay_payment_gateway/presentation/animated_screen/widgets/bubble_atpoint.dart';
+import 'presentation/animated_screen/widgets/bubbles_overlay_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: const AnimatedScreen(),
+      home: const BubbleAnimationAtPoint(),
     );
   }
 }
